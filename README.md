@@ -12,8 +12,8 @@ combine them! `git log --graph --oneline`
 ## 2. take the stress out of pairing: `co-author` your commits
 
 ```
-$ git commit -m "Refactor component.
->
+git commit -m "Refactor component.
+
 Co-authored-by: name <name@example.com>"
 ```
      
@@ -75,6 +75,8 @@ git flow options:
 - Rebase master onto your branch 
           
 ## 8. keep your commit history slick with interactive rebasing
+
+#### Before trying out interactive rebase, learn to use `git commit --amend` which lets you edit the last commit on a branch
 
 **Warning:** *Never rebase a branch someone else has pulled and is also working on. Only safe to use in "one branch, one owner" situations*
 
