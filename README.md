@@ -12,9 +12,9 @@ combine them! `git log --graph --oneline`
 ## 2. take the stress out of pairing: `co-author` your commits
 
 ```
-git commit -m "Refactor component.
+git commit -m "Refactor component"
 
-Co-authored-by: name <name@example.com>"
+Co-authored-by: name <name@example.com>
 ```
      
 ## 3. stage that hunk with `git add --patch`
